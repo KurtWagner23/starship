@@ -1,4 +1,5 @@
 format = """\
+$python\
 $username\
 $hostname\
 $directory\
@@ -44,3 +45,6 @@ disabled = false
 style = "bold-white"
 format = "[$time]($style)"
 
+[python]
+format = '[\($virtualenv\)]($style) '
+style = "green"
